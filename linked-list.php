@@ -1,5 +1,10 @@
 
 <?php
+
+/**
+ * done(15 min)
+ */
+
 class Node{
     public $data;
     public $next;
@@ -21,7 +26,7 @@ class Node{
     }
 }
 
-$node1 = new Node(10);
+$node1 = new Node(10); 
 $node2 = new Node(20);
 $node3 = new Node(30);
 
