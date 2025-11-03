@@ -1,7 +1,7 @@
 <?php
 
 // n * (n + 1) / 2
-
+// done = 15minutes
 function findMissing($arr, $N){
   $expectedSum = $N * ($N + 1) / 2;
   $actualSum = array_sum($arr);  
